@@ -10,7 +10,7 @@ query getCars {
   }
 }
 ```
-
+![getAllCars](https://raw.githubusercontent.com/indahud/nodejs-graphql-mongodb-starter/main/static/getAllCars.png)
 ### getCar
 
 ```graphql
@@ -23,6 +23,7 @@ query getCar {
   }
 }
 ```
+![addCar](https://raw.githubusercontent.com/indahud/nodejs-graphql-mongodb-starter/main/static/getCar.png)
 
 ### Add Car
 
@@ -36,6 +37,7 @@ mutation adddCar {
   }
 }
 ```
+![addCar](https://raw.githubusercontent.com/indahud/nodejs-graphql-mongodb-starter/main/static/addCar.png)
 
 ### Delete Car
 
@@ -49,6 +51,7 @@ mutation removeCar {
   }
 }
 ```
+![removeCar](https://raw.githubusercontent.com/indahud/nodejs-graphql-mongodb-starter/main/static/removeCar.png)
 
 ### update Car
 
@@ -62,3 +65,4 @@ mutation updateCar {
   }
 } 
 ```
+![updateCar](https://raw.githubusercontent.com/indahud/nodejs-graphql-mongodb-starter/main/static/updateCar.png)
