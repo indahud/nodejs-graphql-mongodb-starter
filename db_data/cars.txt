@@ -1,0 +1,35 @@
+db.Cars.insertMany([ 
+    {
+        model: "Mustang Mach-E",
+        year: 2021,
+        company: "Ford"
+    },
+    {
+        model: "Model 3",
+        year: 2021,
+        company: "Tesla"
+    },
+    {
+        model: "Model S",
+        year: 2019,
+        company: "Tesla"
+    },
+    {
+        model: "I-Pace",
+        year: 2019,
+        company: "Jaguar"
+    },
+    {
+        model: "ID.3",
+        year: 2020,
+        company: "Volkswagen"
+    },
+    {
+        model: "Taycan",
+        year: 2020,
+        company: "Porsche"
+    },
+])
+
+
+db.cars.find().pretty()
