@@ -1,6 +1,5 @@
 # Express, MongoDB, Apollo GraphQL CRUD application
 
----
 ### getAllCars
 
 ```graphql
